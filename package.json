@@ -1,0 +1,16 @@
+{
+  "name": "nodeservice",
+  "version": "1.0.0",
+  "description": "This is the test node service",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Chetan Kokil",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^2.2.16"
+  }
+}
