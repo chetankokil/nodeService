@@ -4,7 +4,9 @@
   "description": "This is the test node service",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "npm run build-ts && node index.js",
+    "build-ts": "tsc -p ."
   },
   "author": "Chetan Kokil",
   "license": "ISC",
@@ -12,5 +14,6 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "mongodb": "^2.2.16"
-  }
+  },
+  "devDependencies": {}
 }
